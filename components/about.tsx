@@ -5,7 +5,7 @@ import therapists from "@/components/images/therapist.webp"
 export function About() {
   return (
     <section id="about" className="py-16">
-      <div className="w-full max-h-screen px-5">
+      <div className="w-full px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-square rounded-xl overflow-hidden">
             <Image

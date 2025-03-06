@@ -37,7 +37,7 @@ const services = [
 export function Services() {
   return (
     <section id="services" className="py-16" style={{ backgroundColor: "hsl(var(--muted) / 0.5)" }}>
-      <div className="w-full max-h-screen px-5">
+      <div className="w-full px-5">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight mb-2">Our Services</h2>
           <p className="text-muted-foreground max-w-[700px] mx-auto">
