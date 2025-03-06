@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "OccuTherapy - Occupational Therapy Services",
+  title: "Play Hearts Therapy Center - Occupational Therapy Services",
   description: "Professional occupational therapy services to help you improve your quality of life and independence.",
 }
 

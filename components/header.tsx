@@ -1,8 +1,9 @@
 import Link from "next/link"
-import { Activity } from "lucide-react"
-
+//import { Activity } from "lucide-react"
+import logo from "@/components/images/flower.png"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Header() {
   return (
@@ -12,8 +13,13 @@ export function Header() {
     >
       <div className="w-full flex px-5 h-14 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Activity className="h-6 w-6"/>
-          <span className="text-xl font-bold">OccuTherapy</span>
+          {/* <Activity className="h-6 w-6 text-[#F53D99]"/> */}
+            <Image
+              src={logo}
+              alt="Occupational Therapist"
+              className="w-6 h-6"
+            />
+          <span className="text-xl font-bold">Play Hearts</span>
         </div>
         <nav className="hidden md:flex items-center gap-6 text-xs">
           <Link href="#services" className="font-medium transition-colors hover:text-primary">

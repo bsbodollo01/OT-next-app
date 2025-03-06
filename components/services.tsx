@@ -3,32 +3,32 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const services = [
   {
-    icon: <Brain className="h-10 w-10 text-primary" />,
+    icon: <Brain className="h-10 w-10 text-[#F53D99]" />,
     title: "Cognitive Rehabilitation",
     description: "Improve memory, attention, problem-solving, and other cognitive skills.",
   },
   {
-    icon: <HandMetal className="h-10 w-10 text-primary" />,
+    icon: <HandMetal className="h-10 w-10 text-[#F53D99]" />,
     title: "Fine Motor Skills",
     description: "Enhance coordination, dexterity, and precision in hand movements.",
   },
   {
-    icon: <Baby className="h-10 w-10 text-primary" />,
+    icon: <Baby className="h-10 w-10 text-[#F53D99]" />,
     title: "Pediatric Therapy",
     description: "Support for children with developmental delays or sensory processing issues.",
   },
   {
-    icon: <Accessibility className="h-10 w-10 text-primary" />,
+    icon: <Accessibility className="h-10 w-10 text-[#F53D99]" />,
     title: "Adaptive Equipment",
     description: "Recommendations for tools and devices to increase independence.",
   },
   {
-    icon: <Home className="h-10 w-10 text-primary" />,
+    icon: <Home className="h-10 w-10 text-[#F53D99]" />,
     title: "Home Modifications",
     description: "Assessment and recommendations for creating accessible living spaces.",
   },
   {
-    icon: <Utensils className="h-10 w-10 text-primary" />,
+    icon: <Utensils className="h-10 w-10 text-[#F53D99]" />,
     title: "Daily Living Skills",
     description: "Training in self-care, cooking, cleaning, and other essential activities.",
   },
@@ -46,7 +46,7 @@ export function Services() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
+            <Card key={index} className="border border-white shadow-rose-200 hover:border-[#F53D99] drop-shadow-md divide-rose-200 transition-colors">
               <CardHeader>
                 <div className="mb-2">{service.icon}</div>
                 <CardTitle>{service.title}</CardTitle>

@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-3">
             <div className="flex items-center gap-2">
               <Activity className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold">OccuTherapy</span>
+              <span className="text-xl font-bold">Play Hearts Therapy Center</span>
             </div>
             <p className="text-muted-foreground">
               Empowering individuals to live their best lives through personalized occupational therapy.
@@ -85,7 +85,7 @@ export function Footer() {
           </div>
         </div>
         <div className="w-full border-t mt-8 pt-6 text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} OccuTherapy. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Play Hearts. All rights reserved.</p>
         </div>
       </div>
     </footer>

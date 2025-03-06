@@ -95,7 +95,7 @@ export function Contact() {
                 <Mail className="h-5 w-5 text-primary mt-0.5" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">info@occutherapy.com</p>
+                  <p className="text-muted-foreground">info@playhearts.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
