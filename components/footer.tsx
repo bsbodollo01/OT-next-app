@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Activity, Facebook, Instagram, Twitter } from "lucide-react"
+import { Facebook, Instagram, Twitter } from "lucide-react"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import logo from "@/components/images/flower.png"
@@ -108,7 +108,7 @@ export function Footer() {
                 { icon: <Facebook className="h-5 w-5" />, label: "Facebook" },
                 { icon: <Instagram className="h-5 w-5" />, label: "Instagram" },
                 { icon: <Twitter className="h-5 w-5" />, label: "Twitter" },
-              ].map((social, i) => (
+              ].map((social) => (
                 <motion.div key={social.label} variants={socialVariants} whileHover="hover">
                   <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
                     {social.icon}
