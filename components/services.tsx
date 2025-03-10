@@ -51,7 +51,7 @@ const cardVariants = {
 
 export function Services() {
   return (
-    <AnimatedSection className="py-16" style={{ backgroundColor: "hsl(var(--muted) / 0.5)" }}>
+    <AnimatedSection className="py-16 bg-[hsl(var(--muted) / 0.5)]">
     {/* <AnimatedSection id="services" className="py-16" style={{ backgroundColor: "hsl(var(--muted) / 0.5)" }}> */}
       <div className="w-full px-5">
         <div className="text-center mb-12">
