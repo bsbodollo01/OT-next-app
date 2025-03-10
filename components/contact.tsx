@@ -10,7 +10,8 @@ import { motion } from "framer-motion"
 
 export function Contact() {
   return (
-    <AnimatedSection id="contact" className="py-16">
+    <AnimatedSection className="py-16">
+    {/* <AnimatedSection id="contact" className="py-16"> */}
       <div className="w-full px-5 mx-auto">
         <div className="text-center mb-12">
           <motion.h2

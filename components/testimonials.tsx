@@ -43,8 +43,8 @@ const cardVariants = {
 
 export function Testimonials() {
   return (
-    <AnimatedSection id="testimonials" className="py-16 bg-[hsl(var--background)] dark:bg-[hsl(var(--muted)_/_0.5)]"
->
+    <AnimatedSection className="py-16 bg-[hsl(var--background)] dark:bg-[hsl(var(--muted)_/_0.5)]">
+    {/* <AnimatedSection id="testimonials" className="py-16 bg-[hsl(var--background)] dark:bg-[hsl(var(--muted)_/_0.5)]"> */}
       <div className="w-full px-5">
         <div className="text-center mb-12">
         <motion.h2

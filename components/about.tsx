@@ -27,7 +27,8 @@ const credentials = [
 
 export function About() {
   return (
-    <AnimatedSection id="about" className="py-16">
+    <AnimatedSection className="py-16">
+    {/* <AnimatedSection id="about" className="py-16"> */}
       <div className="w-full px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
